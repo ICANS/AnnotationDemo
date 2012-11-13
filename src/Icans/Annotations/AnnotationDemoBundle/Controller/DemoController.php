@@ -57,7 +57,7 @@ class DemoController extends Controller
      * @Template()
      *
      * @param Request        $request
-     * @param MessageService $messageService
+     * 
      * @return array
      */
     public function createNewMessageAction(Request $request)
