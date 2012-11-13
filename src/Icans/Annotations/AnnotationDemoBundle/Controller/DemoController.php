@@ -34,13 +34,13 @@ class DemoController extends Controller
      */
     protected $messageService;
 
-    /**
-     * Constructor.
-     */
-    public function __construct()
-    {
-        $this->messageService = $this->get('icans.annotations.annotationdemo.messageservice');
-    }
+//    /**
+//     * Constructor.
+//     */
+//    public function __construct()
+//    {
+//        $this->messageService = $this->get('icans.annotations.annotationdemo.messageservice');
+//    }
 
     /**
      * Displays the newest 5 messages.

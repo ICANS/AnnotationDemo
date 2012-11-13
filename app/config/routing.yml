@@ -3,14 +3,14 @@
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
 
-#icans_annotation_demo:
-#    resource: "@IcansAnnotationsAnnotationDemoBundle/Controller/"
-#    type:     annotation
-#    prefix:   /
-
 icans_annotation_demo:
-    resource: "@IcansAnnotationsAnnotationDemoBundle/Resources/config/routing/demo.xml"
+    resource: "@IcansAnnotationsAnnotationDemoBundle/Controller/"
+    type:     annotation
     prefix:   /
+
+#icans_annotation_demo:
+#    resource: "@IcansAnnotationsAnnotationDemoBundle/Resources/config/routing/demo.xml"
+#    prefix:   /
 
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
