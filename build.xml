@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="plat.forms" default="build">
+<project name="AnnotationDemo" default="build">
     <!-- Default environment this build file is executed for. This steers the property files to be included. -->
     <property name="environment" value="dev" />
 
