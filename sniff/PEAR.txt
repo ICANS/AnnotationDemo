@@ -1,0 +1,361 @@
+EEEEEEEEEEEEEEE
+
+
+FILE: ...ons/AnnotationDemoBundle/Api/AnnotationDemoBundleExceptionInterface.php
+--------------------------------------------------------------------------------
+FOUND 9 ERROR(S) AND 1 WARNING(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 14 | ERROR   | Missing @category tag in class comment
+ 14 | ERROR   | Missing @package tag in class comment
+ 14 | ERROR   | Missing @author tag in class comment
+ 14 | ERROR   | Missing @license tag in class comment
+ 14 | ERROR   | Missing @link tag in class comment
+--------------------------------------------------------------------------------
+
+
+FILE: ...ent/src/Icans/Annotations/AnnotationDemoBundle/Api/MessageInterface.php
+--------------------------------------------------------------------------------
+FOUND 13 ERROR(S) AND 1 WARNING(S) AFFECTING 5 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 16 | ERROR   | Missing @category tag in class comment
+ 16 | ERROR   | Missing @package tag in class comment
+ 16 | ERROR   | Missing @author tag in class comment
+ 16 | ERROR   | Missing @license tag in class comment
+ 16 | ERROR   | Missing @link tag in class comment
+ 29 | ERROR   | Last parameter comment requires a blank newline after it
+ 29 | ERROR   | Missing comment for param "$message" at position 1
+ 44 | ERROR   | Last parameter comment requires a blank newline after it
+ 44 | ERROR   | Missing comment for param "$author" at position 1
+--------------------------------------------------------------------------------
+
+
+FILE: .../Icans/Annotations/AnnotationDemoBundle/Api/MessageServiceInterface.php
+--------------------------------------------------------------------------------
+FOUND 10 ERROR(S) AND 1 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 17 | ERROR   | Missing @category tag in class comment
+ 17 | ERROR   | Missing @package tag in class comment
+ 17 | ERROR   | Missing @author tag in class comment
+ 17 | ERROR   | Missing @license tag in class comment
+ 17 | ERROR   | Missing @link tag in class comment
+ 33 | ERROR   | Missing comment for param "$message" at position 1
+--------------------------------------------------------------------------------
+
+
+FILE: ...rc/Icans/Annotations/AnnotationDemoBundle/Controller/DemoController.php
+--------------------------------------------------------------------------------
+FOUND 15 ERROR(S) AND 4 WARNING(S) AFFECTING 8 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 28 | ERROR   | Missing @category tag in class comment
+ 28 | ERROR   | Missing @package tag in class comment
+ 28 | ERROR   | Missing @author tag in class comment
+ 28 | ERROR   | Missing @license tag in class comment
+ 28 | ERROR   | Missing @link tag in class comment
+ 42 | WARNING | Line exceeds 85 characters; contains 94 characters
+ 49 | WARNING | Line exceeds 85 characters; contains 87 characters
+ 67 | ERROR   | Parameters must appear immediately after the comment
+ 67 | ERROR   | Missing comment for param "$request" at position 1
+ 68 | ERROR   | Last parameter comment requires a blank newline after it
+ 68 | ERROR   | The comments for parameters $request (1) and $messageService
+    |         | (2) do not align
+ 68 | ERROR   | Superfluous doc comment at position 2
+ 68 | ERROR   | Missing comment for param "$messageService" at position 2
+ 88 | WARNING | Line exceeds 85 characters; contains 100 characters
+--------------------------------------------------------------------------------
+
+
+FILE: ...rc/Icans/Annotations/AnnotationDemoBundle/Controller/MenuController.php
+--------------------------------------------------------------------------------
+FOUND 16 ERROR(S) AND 6 WARNING(S) AFFECTING 12 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 16 | ERROR   | Missing @category tag in class comment
+ 16 | ERROR   | Missing @package tag in class comment
+ 16 | ERROR   | Missing @author tag in class comment
+ 16 | ERROR   | Missing @license tag in class comment
+ 16 | ERROR   | Missing @link tag in class comment
+ 33 | WARNING | Line exceeds 85 characters; contains 108 characters
+ 36 | WARNING | Line exceeds 85 characters; contains 122 characters
+ 37 | WARNING | Line exceeds 85 characters; contains 104 characters
+ 39 | WARNING | Line exceeds 85 characters; contains 101 characters
+ 40 | WARNING | Line exceeds 85 characters; contains 112 characters
+ 51 | ERROR   | Missing comment for param "$name" at position 1
+ 52 | ERROR   | The comments for parameters $name (1) and $route (2) do not
+    |         | align
+ 52 | ERROR   | Missing comment for param "$route" at position 2
+ 53 | ERROR   | The variable names for parameters $route (2) and $id (3) do not
+    |         | align
+ 53 | ERROR   | The comments for parameters $route (2) and $id (3) do not align
+ 53 | ERROR   | Missing comment for param "$id" at position 3
+ 57 | ERROR   | Private method name "MenuController::generateMenuEntry" must be
+    |         | prefixed with an underscore
+--------------------------------------------------------------------------------
+
+
+FILE: ...ns/Annotations/AnnotationDemoBundle/Controller/ReflectionController.php
+--------------------------------------------------------------------------------
+FOUND 10 ERROR(S) AND 1 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+  7 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  9 | WARNING | PHP version not specified
+  9 | ERROR   | Missing @category tag in file comment
+  9 | ERROR   | Missing @license tag in file comment
+  9 | ERROR   | Missing @link tag in file comment
+ 18 | ERROR   | There must be exactly one blank line before the tags in class
+    |         | comments
+ 21 | ERROR   | Missing @category tag in class comment
+ 21 | ERROR   | Missing @package tag in class comment
+ 21 | ERROR   | Missing @author tag in class comment
+ 21 | ERROR   | Missing @license tag in class comment
+ 21 | ERROR   | Missing @link tag in class comment
+--------------------------------------------------------------------------------
+
+
+FILE: ...oBundle/DependencyInjection/IcansAnnotationsAnnotationDemoExtension.php
+--------------------------------------------------------------------------------
+FOUND 13 ERROR(S) AND 3 WARNING(S) AFFECTING 8 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 19 | WARNING | Line exceeds 85 characters; contains 91 characters
+ 20 | ERROR   | Missing @category tag in class comment
+ 20 | ERROR   | Missing @package tag in class comment
+ 20 | ERROR   | Missing @author tag in class comment
+ 20 | ERROR   | Missing @license tag in class comment
+ 20 | ERROR   | Missing @link tag in class comment
+ 23 | ERROR   | Doc comment for "$configs" missing
+ 23 | ERROR   | Doc comment for "$container" missing
+ 25 | ERROR   | There must be exactly one blank line before the tags in
+    |         | function comment
+ 26 | ERROR   | Missing @return tag in function comment
+ 29 | WARNING | Line exceeds 85 characters; contains 107 characters
+--------------------------------------------------------------------------------
+
+
+FILE: ...current/src/Icans/Annotations/AnnotationDemoBundle/Document/Message.php
+--------------------------------------------------------------------------------
+FOUND 16 ERROR(S) AND 2 WARNING(S) AFFECTING 11 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 22 | ERROR   | Missing @category tag in class comment
+ 22 | ERROR   | Missing @package tag in class comment
+ 22 | ERROR   | Missing @author tag in class comment
+ 22 | ERROR   | Missing @license tag in class comment
+ 22 | ERROR   | Missing @link tag in class comment
+ 41 | WARNING | Line exceeds 85 characters; contains 89 characters
+ 48 | ERROR   | Missing @return tag in function comment
+ 56 | ERROR   | Missing @return tag in function comment
+ 62 | ERROR   | Doc comment for "$message" missing
+ 64 | ERROR   | Missing @return tag in function comment
+ 72 | ERROR   | Doc comment for "$author" missing
+ 74 | ERROR   | Missing @return tag in function comment
+ 84 | ERROR   | Missing @return tag in function comment
+--------------------------------------------------------------------------------
+
+
+FILE: ...ations/AnnotationDemoBundle/Exception/UnableToStoreMessageException.php
+--------------------------------------------------------------------------------
+FOUND 9 ERROR(S) AND 3 WARNING(S) AFFECTING 5 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 12 | WARNING | Line exceeds 85 characters; contains 86 characters
+ 16 | ERROR   | Missing @category tag in class comment
+ 16 | ERROR   | Missing @package tag in class comment
+ 16 | ERROR   | Missing @author tag in class comment
+ 16 | ERROR   | Missing @license tag in class comment
+ 16 | ERROR   | Missing @link tag in class comment
+ 17 | WARNING | Line exceeds 85 characters; contains 111 characters
+--------------------------------------------------------------------------------
+
+
+FILE: ...nt/src/Icans/Annotations/AnnotationDemoBundle/Form/Type/MessageType.php
+--------------------------------------------------------------------------------
+FOUND 19 ERROR(S) AND 1 WARNING(S) AFFECTING 11 LINE(S)
+--------------------------------------------------------------------------------
+  5 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  7 | WARNING | PHP version not specified
+  7 | ERROR   | Missing @category tag in file comment
+  7 | ERROR   | Missing @package tag in file comment
+  7 | ERROR   | Missing @license tag in file comment
+  7 | ERROR   | Missing @link tag in file comment
+ 16 | ERROR   | There must be exactly one blank line before the tags in class
+    |         | comments
+ 17 | ERROR   | Missing @category tag in class comment
+ 17 | ERROR   | Missing @package tag in class comment
+ 17 | ERROR   | Missing @author tag in class comment
+ 17 | ERROR   | Missing @license tag in class comment
+ 17 | ERROR   | Missing @link tag in class comment
+ 20 | ERROR   | Doc comment for "$builder" missing
+ 20 | ERROR   | Doc comment for "$options" missing
+ 22 | ERROR   | Missing @return tag in function comment
+ 27 | ERROR   | Multi-line function call not indented correctly; expected 16
+    |         | spaces but found 12
+ 28 | ERROR   | Multi-line function call not indented correctly; expected 16
+    |         | spaces but found 12
+ 29 | ERROR   | Multi-line function call not indented correctly; expected 16
+    |         | spaces but found 12
+ 32 | ERROR   | Multi-line function call not indented correctly; expected 12
+    |         | spaces but found 8
+ 37 | ERROR   | Missing @return tag in function comment
+--------------------------------------------------------------------------------
+
+
+FILE: ...notations/AnnotationDemoBundle/IcansAnnotationsAnnotationDemoBundle.php
+--------------------------------------------------------------------------------
+FOUND 9 ERROR(S) AND 1 WARNING(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 15 | ERROR   | Missing @category tag in class comment
+ 15 | ERROR   | Missing @package tag in class comment
+ 15 | ERROR   | Missing @author tag in class comment
+ 15 | ERROR   | Missing @license tag in class comment
+ 15 | ERROR   | Missing @link tag in class comment
+--------------------------------------------------------------------------------
+
+
+FILE: ...t/src/Icans/Annotations/AnnotationDemoBundle/Service/MessageService.php
+--------------------------------------------------------------------------------
+FOUND 18 ERROR(S) AND 2 WARNING(S) AFFECTING 12 LINE(S)
+--------------------------------------------------------------------------------
+  8 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+ 10 | ERROR   | Missing @category tag in file comment
+ 10 | ERROR   | Missing @license tag in file comment
+ 10 | ERROR   | Missing @link tag in file comment
+ 25 | ERROR   | There must be exactly one blank line before the tags in class
+    |         | comments
+ 26 | ERROR   | Missing @category tag in class comment
+ 26 | ERROR   | Missing @package tag in class comment
+ 26 | ERROR   | Missing @author tag in class comment
+ 26 | ERROR   | Missing @license tag in class comment
+ 26 | ERROR   | Missing @link tag in class comment
+ 37 | ERROR   | Last parameter comment requires a blank newline after it
+ 37 | ERROR   | Missing comment for param "$documentManager" at position 1
+ 47 | ERROR   | Doc comment for "$limit" missing
+ 47 | ERROR   | Doc comment for "$offset" missing
+ 49 | ERROR   | There must be exactly one blank line before the tags in
+    |         | function comment
+ 50 | ERROR   | Missing @return tag in function comment
+ 55 | WARNING | Line exceeds 85 characters; contains 91 characters
+ 63 | ERROR   | Doc comment for "$message" missing
+ 65 | ERROR   | Missing @return tag in function comment
+ 72 | WARNING | Line exceeds 85 characters; contains 115 characters
+--------------------------------------------------------------------------------
+
+
+FILE: ...ations/AnnotationDemoBundle/Tests/MessageService/MessageServiceTest.php
+--------------------------------------------------------------------------------
+FOUND 13 ERROR(S) AND 4 WARNING(S) AFFECTING 9 LINE(S)
+--------------------------------------------------------------------------------
+  5 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  7 | WARNING | PHP version not specified
+  7 | ERROR   | Missing @category tag in file comment
+  7 | ERROR   | Missing @package tag in file comment
+  7 | ERROR   | Missing @license tag in file comment
+  7 | ERROR   | Missing @link tag in file comment
+ 14 | ERROR   | Missing @category tag in class comment
+ 14 | ERROR   | Missing @package tag in class comment
+ 14 | ERROR   | Missing @author tag in class comment
+ 14 | ERROR   | Missing @license tag in class comment
+ 14 | ERROR   | Missing @link tag in class comment
+ 29 | ERROR   | Missing @return tag in function comment
+ 44 | WARNING | Line exceeds 85 characters; contains 105 characters
+ 45 | ERROR   | Missing @return tag in function comment
+ 48 | WARNING | Line exceeds 85 characters; contains 102 characters
+ 60 | ERROR   | Missing @return tag in function comment
+ 63 | WARNING | Line exceeds 85 characters; contains 102 characters
+--------------------------------------------------------------------------------
+
+
+FILE: ...ww/platforms/current/src/Icans/Annotations/UserBundle/Document/User.php
+--------------------------------------------------------------------------------
+FOUND 12 ERROR(S) AND 1 WARNING(S) AFFECTING 5 LINE(S)
+--------------------------------------------------------------------------------
+  5 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  7 | WARNING | PHP version not specified
+  7 | ERROR   | Missing @category tag in file comment
+  7 | ERROR   | Missing @package tag in file comment
+  7 | ERROR   | Missing @license tag in file comment
+  7 | ERROR   | Missing @link tag in file comment
+ 14 | ERROR   | There must be exactly one blank line before the tags in class
+    |         | comments
+ 15 | ERROR   | Missing @category tag in class comment
+ 15 | ERROR   | Missing @package tag in class comment
+ 15 | ERROR   | Missing @author tag in class comment
+ 15 | ERROR   | Missing @license tag in class comment
+ 15 | ERROR   | Missing @link tag in class comment
+ 23 | ERROR   | Missing function doc comment
+--------------------------------------------------------------------------------
+
+
+FILE: ...current/src/Icans/Annotations/UserBundle/IcansAnnotationsUserBundle.php
+--------------------------------------------------------------------------------
+FOUND 9 ERROR(S) AND 1 WARNING(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+  6 | ERROR   | Content of the @author tag must be in the form "Display Name
+    |         | <username@example.com>"
+  8 | WARNING | PHP version not specified
+  8 | ERROR   | Missing @category tag in file comment
+  8 | ERROR   | Missing @license tag in file comment
+  8 | ERROR   | Missing @link tag in file comment
+ 15 | ERROR   | Missing @category tag in class comment
+ 15 | ERROR   | Missing @package tag in class comment
+ 15 | ERROR   | Missing @author tag in class comment
+ 15 | ERROR   | Missing @license tag in class comment
+ 15 | ERROR   | Missing @link tag in class comment
+--------------------------------------------------------------------------------
+
+Time: 0 seconds, Memory: 7.00Mb
+

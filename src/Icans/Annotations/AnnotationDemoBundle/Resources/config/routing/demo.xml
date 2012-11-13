@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="annotationdemo_viewMessageList" pattern="/">
+        <default key="_controller">IcansAnnotationsAnnotationDemoBundle:Demo:viewMessageList</default>
+    </route>
+
+    <route id="annotationdemo_createMessage" pattern="/create/">
+        <default key="_controller">IcansAnnotationsAnnotationDemoBundle:Demo:createNewMessage</default>
+    </route>
+
+    <route id="annotationdemo_reflection" pattern="/reflection/">
+        <default key="_controller">IcansAnnotationsAnnotationDemoBundle:Reflection:reflection</default>
+    </route>
+
+</routes>

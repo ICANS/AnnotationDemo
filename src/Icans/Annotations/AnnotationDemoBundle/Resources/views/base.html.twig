@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <title>ICANS GmbH | Annotations in PHP Demo</title>
+        {% stylesheets filter="scss" output="css/combined.css"
+            '@IcansAnnotationsAnnotationDemoBundle/Resources/public/css/styles.scss'
+        %}
+            <link rel="stylesheet" href="{{ asset_url }}" />
+        {% endstylesheets %}
+    </head>
+    <body>
+        <div id="top" class="pagewidth">
+            <h1>
+                <a title="ICANS GmbH" href="http://www.icans-gmbh.com/">
+                    <img alt="ICANS GmbH" src="/logo.jpg">
+                </a>
+            </h1>
+        </div>
+        <div id="header" class="pagewidth">
+            {% render 'IcansAnnotationsAnnotationDemoBundle:Menu:menu' %}
+        </div>
+        <div class="pagewidth clearfix" id="content">
+            {% set flashMessages = app.session.getFlashes() %}
+            {% if flashMessages is not empty %}
+                <ul class="error">
+                    {% for key, flash in flashMessages %}
+                        <li>{{ flash }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% block content %}{% endblock %}
+        </div>
+    </body>
+</html>

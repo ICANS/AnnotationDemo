@@ -1,0 +1,27 @@
+{#
+    Author:    Thorsten 'stepo' Hallwas
+    copyright: 2012 ICANS GmbH
+ #}
+{% extends 'IcansAnnotationsAnnotationDemoBundle::base.html.twig' %}
+{% block content %}
+<h3>Class:</h3>
+<pre>
+{{ classDocumentation }}
+</pre>
+<a href="{{ seeAnnotation }}">{{ seeAnnotation }}</a>
+<h3>Method</h3>
+<pre>
+{{ methodDocumentation }}
+</pre>
+<b>Route Annotation:</b>
+<pre>
+{{ routeAnnotation }}
+</pre>
+<h3>Property:</h3>
+<pre>
+{{ propertyDocumentation }}
+</pre>
+<b>Typ:</b>
+<pre>
+{{ typeAnnotation }}
+{% endblock %}

@@ -1,0 +1,98 @@
+EWE.EE..E....E
+
+
+FILE: ...rc/Icans/Annotations/AnnotationDemoBundle/Controller/DemoController.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AND 3 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+ 31 | WARNING | This comment is 67% valid code; is this commented out code?
+ 35 | ERROR   | Protected member variable "messageService" must contain a
+    |         | leading underscore
+ 45 | WARNING | This comment is 42% valid code; is this commented out code?
+ 60 | WARNING | This comment is 38% valid code; is this commented out code?
+--------------------------------------------------------------------------------
+
+
+FILE: ...ns/Annotations/AnnotationDemoBundle/Controller/ReflectionController.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 27 | ERROR | Protected member variable "reflectionProperty" must contain a
+    |       | leading underscore
+--------------------------------------------------------------------------------
+
+
+FILE: ...oBundle/DependencyInjection/IcansAnnotationsAnnotationDemoExtension.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 3 WARNING(S) AFFECTING 3 LINE(S)
+--------------------------------------------------------------------------------
+ 23 | WARNING | This comment is 47% valid code; is this commented out code?
+ 29 | WARNING | This comment is 61% valid code; is this commented out code?
+ 30 | WARNING | This comment is 86% valid code; is this commented out code?
+--------------------------------------------------------------------------------
+
+
+FILE: ...current/src/Icans/Annotations/AnnotationDemoBundle/Document/Message.php
+--------------------------------------------------------------------------------
+FOUND 3 ERROR(S) AND 8 WARNING(S) AFFECTING 11 LINE(S)
+--------------------------------------------------------------------------------
+ 25 | WARNING | This comment is 60% valid code; is this commented out code?
+ 29 | ERROR   | Protected member variable "id" must contain a leading
+    |         | underscore
+ 31 | WARNING | This comment is 58% valid code; is this commented out code?
+ 38 | ERROR   | Protected member variable "message" must contain a leading
+    |         | underscore
+ 40 | WARNING | This comment is 60% valid code; is this commented out code?
+ 44 | ERROR   | Protected member variable "author" must contain a leading
+    |         | underscore
+ 46 | WARNING | This comment is 60% valid code; is this commented out code?
+ 54 | WARNING | This comment is 60% valid code; is this commented out code?
+ 62 | WARNING | This comment is 60% valid code; is this commented out code?
+ 72 | WARNING | This comment is 60% valid code; is this commented out code?
+ 82 | WARNING | This comment is 60% valid code; is this commented out code?
+--------------------------------------------------------------------------------
+
+
+FILE: ...nt/src/Icans/Annotations/AnnotationDemoBundle/Form/Type/MessageType.php
+--------------------------------------------------------------------------------
+FOUND 4 ERROR(S) AND 3 WARNING(S) AFFECTING 7 LINE(S)
+--------------------------------------------------------------------------------
+ 20 | WARNING | This comment is 60% valid code; is this commented out code?
+ 23 | WARNING | The method parameter $options is never used
+ 27 | ERROR   | Multi-line function call not indented correctly; expected 16
+    |         | spaces but found 12
+ 28 | ERROR   | Multi-line function call not indented correctly; expected 16
+    |         | spaces but found 12
+ 29 | ERROR   | Multi-line function call not indented correctly; expected 16
+    |         | spaces but found 12
+ 32 | ERROR   | Multi-line function call not indented correctly; expected 12
+    |         | spaces but found 8
+ 35 | WARNING | This comment is 60% valid code; is this commented out code?
+--------------------------------------------------------------------------------
+
+
+FILE: ...t/src/Icans/Annotations/AnnotationDemoBundle/Service/MessageService.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AND 3 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+ 32 | ERROR   | Protected member variable "documentManager" must contain a
+    |         | leading underscore
+ 34 | WARNING | This comment is 43% valid code; is this commented out code?
+ 47 | WARNING | This comment is 50% valid code; is this commented out code?
+ 63 | WARNING | This comment is 60% valid code; is this commented out code?
+--------------------------------------------------------------------------------
+
+
+FILE: ...ww/platforms/current/src/Icans/Annotations/UserBundle/Document/User.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AND 3 WARNING(S) AFFECTING 4 LINE(S)
+--------------------------------------------------------------------------------
+ 13 | WARNING | This comment is 40% valid code; is this commented out code?
+ 18 | WARNING | This comment is 60% valid code; is this commented out code?
+ 21 | ERROR   | Protected member variable "id" must contain a leading
+    |         | underscore
+ 23 | WARNING | Useless method overriding detected
+--------------------------------------------------------------------------------
+
+Time: 0 seconds, Memory: 9.75Mb
+

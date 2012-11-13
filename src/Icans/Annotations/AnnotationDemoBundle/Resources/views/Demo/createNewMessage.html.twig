@@ -1,0 +1,13 @@
+{#
+    Author:    Thorsten 'stepo' Hallwas
+    copyright: 2012 ICANS GmbH
+ #}
+{% extends 'IcansAnnotationsAnnotationDemoBundle::base.html.twig' %}
+{% block content %}
+    <form action="{{ path('annotationdemo_createMessage') }}" method="post" {{ form_enctype(form) }} class="create-message-form">
+        {{ form_widget(form) }}
+        <button type="submit" class="create-message-button">
+            Add Message
+        </button>
+    </form>
+{% endblock %}

@@ -1,0 +1,18 @@
+{#
+    Author:    Thorsten 'stepo' Hallwas
+    copyright: 2012 ICANS GmbH
+ #}
+{% extends 'IcansAnnotationsAnnotationDemoBundle::base.html.twig' %}
+{% block content %}
+    <h2 id="mainheadline">Messages</h2>
+    {% if messages is not empty %}
+        <ul class="messages">
+        {% for message in messages %}
+        <li>
+            {{ message.message }} ({{ message.author.username }})
+        </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{% if menuEntries is not empty %}
+    <ul class="navi">
+        {% for entry in menuEntries %}
+            <li>
+                <a href="{{ entry.url|default('#') }}" {% if entry.id is defined and entry.id is not null %}id="{{ entry.id }}"{% endif %}>
+                    {{ entry.linktext|default('unnamed') }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}

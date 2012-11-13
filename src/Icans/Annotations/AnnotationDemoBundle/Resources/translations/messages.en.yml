@@ -1,0 +1,21 @@
+form:
+  create:
+    placeholder:
+      message: Enter message here...
+  email:
+    label: Email
+  password:
+    label: Password
+  password_confirmation:
+    label: Repeat Password
+  newpassword:
+    label: New Password
+  newpassword_confirmation:
+    label: Repeat New Password
+  oldpassword:
+    label: Old Password
+    explanation: Your old password must be given in order to confirm any changes.
+  username:
+    label: Display Name
+  fullname:
+    label: Full Name

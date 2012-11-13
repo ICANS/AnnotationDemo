@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Requirement | platforms</title>
+
+	<script type="text/javascript" src="resources/combined.js?394153670"></script>
+	<script type="text/javascript" src="elementlist.js?623973624"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li><a href="namespace-Icans.html">Icans<span></span></a>
+						<ul>
+				<li><a href="namespace-Icans.Annotations.html">Annotations<span></span></a>
+						<ul>
+				<li><a href="namespace-Icans.Annotations.AnnotationDemoBundle.html">AnnotationDemoBundle<span></span></a>
+						<ul>
+				<li><a href="namespace-Icans.Annotations.AnnotationDemoBundle.Api.html">Api</a>
+						</li>
+				<li><a href="namespace-Icans.Annotations.AnnotationDemoBundle.Controller.html">Controller</a>
+						</li>
+				<li><a href="namespace-Icans.Annotations.AnnotationDemoBundle.DependencyInjection.html">DependencyInjection</a>
+						</li>
+				<li><a href="namespace-Icans.Annotations.AnnotationDemoBundle.Document.html">Document</a>
+						</li>
+				<li><a href="namespace-Icans.Annotations.AnnotationDemoBundle.Exception.html">Exception</a>
+						</li>
+				<li><a href="namespace-Icans.Annotations.AnnotationDemoBundle.Form.html">Form<span></span></a>
+						<ul>
+				<li><a href="namespace-Icans.Annotations.AnnotationDemoBundle.Form.Type.html">Type</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Icans.Annotations.AnnotationDemoBundle.Service.html">Service</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-Icans.Annotations.UserBundle.html">UserBundle<span></span></a>
+						<ul>
+				<li><a href="namespace-Icans.Annotations.UserBundle.Document.html">Document</a>
+						</li>
+							</ul></li></ul></li></ul></li>
+				<li class="active"><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-AppCache.html">AppCache</a></li>
+				<li><a href="class-AppKernel.html">AppKernel</a></li>
+				<li><a href="class-PhpIniRequirement.html">PhpIniRequirement</a></li>
+				<li class="active"><a href="class-Requirement.html">Requirement</a></li>
+				<li><a href="class-RequirementCollection.html">RequirementCollection</a></li>
+				<li><a href="class-SymfonyRequirements.html">SymfonyRequirements</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-echo_requirement.html">echo_requirement</a></li>
+				<li><a href="function-echo_title.html">echo_title</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-None.html" title="Summary of None"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Requirement</h1>
+
+
+	<div class="description">
+	
+<p>Represents a single PHP requirement, e.g. an installed extension. It can be a
+mandatory requirement or an optional recommendation. There is a special
+subclass, named PhpIniRequirement, to check a php.ini configuration.</p>
+
+	</div>
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-PhpIniRequirement.html">PhpIniRequirement</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Author:</b>
+				Tobias Schultze &lt;<a href="http://tobion.de">http://tobion.de</a>&gt;<br />
+		<b>Located at</b> <a href="source-class-Requirement.html#26-108" title="Go to source code">app/SymfonyRequirements.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Requirement.html#41-57" title="Go to source code">__construct</a>( <span>Boolean <var>$fulfilled</var></span>, <span>string <var>$testMessage</var></span>, <span>string <var>$helpHtml</var></span>, <span>string|null <var>$helpText</var> = <span class="php-keyword1">null</span></span>, <span>Boolean <var>$optional</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Constructor that initializes the requirement.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Constructor that initializes the requirement.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$fulfilled</var></dt>
+					<dd><code>Boolean</code><br>$fulfilled Whether the requirement is fulfilled</dd>
+					<dt><var>$testMessage</var></dt>
+					<dd><code>string</code><br>$testMessage The message for testing the requirement</dd>
+					<dt><var>$helpHtml</var></dt>
+					<dd><code>string</code><br>$helpHtml The help text formatted in HTML for resolving the problem</dd>
+					<dt><var>$helpText</var></dt>
+					<dd><code>string|null</code><br>$helpText The help text (when null, it will be inferred from $helpHtml, i.e.
+stripped from HTML tags)</dd>
+					<dt><var>$optional</var></dt>
+					<dd><code>Boolean</code><br>$optional Whether this is only an optional recommendation not a mandatory
+requirement</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isFulfilled" id="_isFulfilled">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isFulfilled">#</a>
+		<code><a href="source-class-Requirement.html#59-67" title="Go to source code">isFulfilled</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns whether the requirement is fulfilled.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns whether the requirement is fulfilled.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>true if fulfilled, otherwise false<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTestMessage" id="_getTestMessage">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTestMessage">#</a>
+		<code><a href="source-class-Requirement.html#69-77" title="Go to source code">getTestMessage</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the message for testing the requirement.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the message for testing the requirement.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The test message<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHelpText" id="_getHelpText">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHelpText">#</a>
+		<code><a href="source-class-Requirement.html#79-87" title="Go to source code">getHelpText</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the help text for resolving the problem</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the help text for resolving the problem</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The help text<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHelpHtml" id="_getHelpHtml">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHelpHtml">#</a>
+		<code><a href="source-class-Requirement.html#89-97" title="Go to source code">getHelpHtml</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns the help text formatted in HTML.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the help text formatted in HTML.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The HTML help<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isOptional" id="_isOptional">
+
+		<td class="attributes"><code>
+			 public 
+			Boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isOptional">#</a>
+		<code><a href="source-class-Requirement.html#99-107" title="Go to source code">isOptional</a>( )</code>
+
+		<div class="description short">
+			
+<p>Returns whether this is only an optional recommendation and not a mandatory
+requirement.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns whether this is only an optional recommendation and not a mandatory
+requirement.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>Boolean</code><br>true if optional, false if mandatory<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		platforms API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
