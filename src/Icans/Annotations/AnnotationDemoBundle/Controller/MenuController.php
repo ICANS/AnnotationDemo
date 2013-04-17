@@ -40,6 +40,8 @@ class MenuController extends Controller
             $menuEntries[] = $this->generateMenuEntry('Register', 'fos_user_registration_register', 'register');
         }
 
+        $menuEntries[] = $this->generateMenuEntry('Reflection', 'annotationdemo_reflection', 'reflection');
+
         return array(
             'menuEntries' => $menuEntries,
         );

@@ -56,7 +56,7 @@ class DemoController extends Controller
      * @Route("/create/", name="annotationdemo_createMessage")
      * @Template()
      *
-     * @param Request        $request
+     * @param Request $request
      * 
      * @return array
      */
