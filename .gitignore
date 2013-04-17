@@ -1,3 +1,11 @@
 /vendor/
 /nbproject/
 /app/cache/*
+app/SymfonyRequirements.php
+app/bootstrap.php.cache
+app/logs/*
+composer.lock
+web/css/combined.css
+web/css/combined_styles_1.css
+
+
